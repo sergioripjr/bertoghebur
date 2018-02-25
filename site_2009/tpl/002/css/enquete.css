@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+#form_enquete{
+	margin-top:10px;
+	border-top:1px solid #EFEFEF;	
+	font-size:11px;
+	text-align:justify;
+	font-weight:normal;
+}
+
+#form_enquete ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+#form_enquete input{
+	border:0px;
+}
+#exibeResultadoEnquete{
+	text-align:center;
+}
+
+#form_enquete .verResultado a{
+	font-size:11px;
+	font-weight:normal;
+	float:right;
+}

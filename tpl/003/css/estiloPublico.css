@@ -1,0 +1,490 @@
+/* CSS Document */
+body{
+	margin:0px;
+	padding: 0px;
+	text-align: center;
+	font-family: Helvetica, Verdana, Geneva, Arial, sans-serif;
+	font-size:12px;
+}
+
+div#tempRep{
+	width:100%;
+	height:auto;
+	background:url(../imagens/pixel_detalhe_sup.jpg) repeat-x top left;
+	z-index:5;
+}
+	div#tempAbsoluta{
+		width:100%;
+		min-width:950px;
+		height:auto;
+		z-index:6;
+	}
+	
+		div#tempCentral{
+			/*width:930px;*/
+			width:955px;
+			height:auto;
+			margin:0 auto;
+			background-position:center;
+			z-index:7;
+		}
+		
+			div#tempTopo{
+				width:100%;
+				/*height:auto;*/
+				height:110px;
+				text-align:left;
+			}
+			
+			div#tempTopo a.clickHome{
+				display:block;
+				width:400px;
+				height:109px;
+			}
+				div#tempTopo div#tempIdioma{
+					top:65px;
+					position:absolute;
+					margin-left:630px;
+					width:300px;
+					height:50px;
+					text-align:right;
+				}
+					div#tempTopo div#tempIdioma a{
+						text-decoration:none;
+					}
+			div#tempMenu{
+				width:930px;
+				height:auto;
+				margin:12px 0px 0px 0px;
+				padding-left:5px;
+				_padding-left:10px;
+			}
+			
+			div#tempConteudo{
+				/*width:930px;*/
+				width:955px;
+				height:auto;
+				margin:0px auto;
+				margin-top:33px;
+				z-index:10;
+			}
+			
+				div#tempConteudoBanner{
+					width:100%;
+					height:auto;
+				}
+				
+				div#tempConteudoCont{
+					width:680px;
+					height:auto;
+					float:left;
+					margin:8px 0px 0px 20px;
+					_margin-left:13px;
+					text-align:justify;
+					overflow:hidden;
+					z-index:10;
+				}
+					#menuConteudo{
+						position:relative;
+						width:100%;
+						height:auto;
+						margin-top:15px;
+					}
+						#menuConteudo ul{
+							margin:0px;
+							padding:0px;
+							list-style:none;
+						}
+							#menuConteudo ul li{
+								margin:3px;
+								padding:0px;
+							}
+								#menuConteudo ul li a{
+									font-weight:normal;
+									height:28px;
+									text-decoration:none;
+								}
+									#menuConteudo ul li a img{
+										margin-right:10px;
+									}
+							#menuConteudo ul li p{
+								border-bottom:1px solid #CECECE;
+								margin:0px;
+								padding:0px;
+								font-size:14px;
+								font-weight:bold;
+								height:28px;
+							}
+				div#tempConteudoMenu{
+					width:228px;
+					height:auto;
+					float:right;
+					margin:7px 10px 0px 0px;
+					_margin:7px 2px 0px 0px;
+					text-align:justify;
+				}
+					div#tempConteudoMenu fieldset{
+						border:0px;
+						margin:0px;
+						padding:0px;
+					}
+					div#tempConteudoMenu a.indexPagSeguro{	
+						display:block;
+						text-align:right;
+						margin:5px 10px 0px 0px;
+
+					}
+					div#tempConteudoMenu form#formBusca{
+						background:url(../imagens/buscar_pixel.jpg) repeat-y top left;
+						margin:0px;
+						padding:0px 0px 10px 0px;
+					}
+						
+						div#tempConteudoMenu form#formBusca select{
+							display:inline;
+							float:right;
+							margin:0px 18px 5px 0px;
+							width:110px;
+						}
+						div#tempConteudoMenu form#formBusca label{
+							float:left;
+							display:inline;
+							margin:0px 0px 5px 30px;
+						}
+
+						div#tempConteudoMenu form#formBusca fieldset div{
+							margin-left:2px;
+							clear:both;
+							height:24px;
+							background:url(../imagens/buscar.jpg) no-repeat top left;
+						}
+							div#tempConteudoMenu form#formBusca fieldset div input{
+								display:inline;
+								float:left;
+								margin:3px 0px 0px 28px;
+								width:130px;
+								border:0px;
+								background:none;						
+							}
+							div#tempConteudoMenu form#formBusca fieldset div button{
+								display:inline;
+								float:right;
+								margin:3px 15px 0px 0px;
+								width:47px;
+								border:0px;
+								background:none;
+							}
+						div#tempConteudoMenu form#formBusca fieldset label.textoBusca{
+							background:url(../imagens/produto_topo.jpg) no-repeat top left;		
+							display:block;
+							height:40px;
+							padding:13px 0px 0px 35px;
+							margin:0px;
+							width:194px;		
+							font-size:14px;
+							font-weight:bold;
+						}
+					div#tempConteudoMenu form.formNewsLetter{
+						margin:-2px 0px 0px 0px;
+						padding:0px;
+						height:114px;
+						background:url(../imagens/receba_news.jpg) no-repeat top left;
+					}		
+						div#tempConteudoMenu form.formNewsLetter *{
+							margin:0px;
+							padding:0px;
+							line-height:normal;
+						}
+	
+							div#tempConteudoMenu form.formNewsLetter div#cadNewsLetter_txt{
+								display:block;
+								width:199px;
+								height:auto;
+								font-size:14px;
+								margin:14px 0px 16px 13px;
+								font-size:12px;
+								overflow:hidden;
+								white-space:nowrap;
+							}
+							div.ltnews{
+								float:right;
+								text-align:left;
+								width:209px;
+								height:113px;
+								line-height:1;	
+							}
+							
+							div#tempConteudoMenu form.formNewsLetter div label{
+								float:left;
+								height:auto;
+								padding:0px;
+								margin:0px 0px 0px 3px;
+								line-height:normal;
+							}
+							
+							div#tempConteudoMenu form.formNewsLetter div input{
+								width:148px;
+								float:right;
+								height:19px;
+								border:0px;
+								background:none;
+								margin:0px;
+							}
+
+							div#tempConteudoMenu form.formNewsLetter div.div1{
+								clear:both;
+								width:194px;
+								height:auto;
+							}
+							div#tempConteudoMenu form.formNewsLetter div.div2{
+								clear:both;
+								width:194px;
+								height:auto;
+								line-height:normal;
+							}
+							div#tempConteudoMenu form.formNewsLetter div.div2 label{
+								margin:7px 0px 0px 3px;
+								
+							}
+							div#tempConteudoMenu form.formNewsLetter div.div2 input{
+								margin:5px 0px 0px 0px;
+							}
+							div#tempConteudoMenu form.formNewsLetter div.div3{
+								clear:both;
+								width:197px;
+								height:auto;
+								line-height:normal;
+							}
+							div#tempConteudoMenu form.formNewsLetter div.div3 button{
+								background:none;
+								float:right;
+								width:61px;
+								height:18px;
+								border:0px;
+								padding:0px;
+								font-size:10px;
+								margin:0px 0px 0px 0px;
+							}
+							
+							div#tempConteudoMenu form.formNewsLetter div.div3 button.btn_sub_news{
+								text-align:center;
+								line-height:2.2;
+								font-size:11px;
+							}
+					
+			#tempRodape{
+				background:url(../imagens/rodape_pixel.jpg) repeat-x top center;
+				width:100%;
+				height:68px;
+				padding:0px;
+				text-align:left;
+			}
+				#tempRodape span{
+					font-size:11px;
+					text-align:left;
+					display:block;
+					float:left;
+					margin:17px 0px 0px 20px;
+					width:650px;
+					height:40px;
+				}
+				#tempRodape a{
+					display:block;
+					float:right;
+					margin:9px 15px 0px 0px;
+					width:220px;
+					height:50px;
+					text-decoration:none;
+				}
+div.exibeAnexoImagem{
+	position:relative;
+	float:left;
+	width:100%;
+	height:auto;
+	text-align:left;
+}
+div.exibeAnexoImagem ul{
+	float:left;
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+div.exibeAnexoImagem ul li{
+	float:left;
+	width:100px;
+	height:100px;
+	padding:1px;
+	margin:5px 2px 2px 2px;
+	border:1px solid #CECECE;
+	text-align:center;
+}
+div.exibeAnexoImagem ul li a{
+	float:none;
+	display:block;
+	width:100px;
+	height:100px;
+	text-align:center;
+	text-decoration:none;
+}
+div.exibeAnexoImagem ul li a img{
+	float:none;
+	vertical-align:middle;
+}
+
+
+
+div.exibeAnexoArquivo{
+	position:relative;
+	width:100%;
+	height:auto;
+	text-align:left;
+	margin:20px 2px 0px 2px;
+}
+div.exibeAnexoArquivo p{
+	padding-top:0px;
+	height:60px;
+	font-weight:bold;
+	text-align:left;
+	font-size:18px;
+	padding-top:20px;
+}
+div.exibeAnexoArquivo ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+div.exibeAnexoArquivo ul li{
+	padding:2px;
+	text-align:left;
+}
+div.exibeAnexoArquivo table tr td.anexoTitulo{
+	padding:0px 10px 0px 10px;
+	border-bottom:1px solid #DBDBDB;
+}
+
+#bannerLateral{
+	display:block;
+	margin:0px 0px 0px 2px;
+	padding:0px;
+	line-height:0.1;
+	background-color:#000066;
+}
+	#bannerLateral *{
+		margin:0px;
+		padding:0px;		
+		border:0px;
+		line-height:0.1;
+	}
+	#bannerLateral a{
+		display:block;
+		width:100%;
+		height:auto;
+		text-decoration:none;
+	}
+
+#categoriaProdutos{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	
+}
+	#categoriaProdutos ul{
+		background:none;
+		margin:0px;
+		padding:0px;
+		width:229px;		
+		list-style:none;
+		float:right;
+	}
+		#categoriaProdutos ul li{
+			margin:0px;
+			padding:0px;
+			width:100%;
+			text-align:left;
+			cursor:pointer;
+		}
+			#categoriaProdutos ul li a{
+				display:block;
+				color:#FFFFFF;
+				font-weight:normal;
+				padding:6px 0px 5px 50px;
+				text-decoration:none;
+				height:19px;
+				background:url(../imagens/produto_pixel.jpg) repeat-y top left;
+				clear:both;
+			}
+				#categoriaProdutos ul li ul li a{
+					display:block;
+					color:#FFFFFF;
+					font-weight:normal;
+					height:19px;
+					padding:6px 0px 5px 60px;
+					background:url(../imagens/submenu.jpg) repeat-y top left;
+
+				}
+
+#produtoRodape{
+	clear:both;
+	line-height:1;
+	overflow:hidden;
+	height:1px;
+	white-space:nowrap;
+}
+
+.titulo_principal{
+	margin-top:8px;
+	border-bottom:1px solid #CECECE;
+	width:100%;
+	height:26px;
+}
+	.titulo_principal a{
+		text-decoration:none;
+	}
+	.titulo_principal div{
+		width:auto;
+		height:26px;
+		float:right;
+	}
+	.titulo_principal a.voltar{
+		display:none;
+	}
+	.titulo_principal a.avancar{
+		display:none;
+	}
+	
+h1.tit, h2.tit, h3.tit{
+	display:none;
+}
+
+.clearBoth{
+	clear:both;
+}
+div.texto{
+	text-align:justify;
+	line-height:1.2;
+	font-size:12px;
+}
+	div.texto h4{
+		margin-top:-28px;
+		font-size:20px;
+	}
+button.btnSubmit{
+	border:0px;
+	margin:0px;
+	padding:0px;
+}
+button.btnFechar{
+	border:0px;
+	margin:0px;
+	padding:0px;
+}
+
+.chamadaDestaque{
+	font-size:12px;
+}
+	.chamadaDestaque a.tituloChamado{
+		display:block;
+		font-weight:bold;
+		font-size:16px;
+		text-decoration:none;
+	}

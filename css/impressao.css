@@ -1,0 +1,56 @@
+/* 001 002*/
+.rodape{
+	display:none;
+}
+	#menu, h2{
+		display:none;
+	}
+	#topSuper{
+		display:none;
+	}
+	.exibeAnexoImagem ul{
+		list-style:none;
+	}
+	div#conteudo{
+		position:absolute;
+		float:none;
+		display:block;
+		z-index:9999;
+		margin-top:0px;
+		margin-left:1px;
+		width:98%;
+		height:auto;
+	}
+	div#tempMenu{
+		background-color:#00CC00;
+	}
+	div#menu{
+		background-color:#000066;
+	}
+	div#abaConteudoDireita{
+		float:none;
+		width:100%;
+	}
+	div#abaConteudoEsquerda{
+		display:none;
+	}
+	div.titulo_principal{
+		display:none;
+	}
+
+/* 003 */
+#tempTopo a h1.tit{
+	display:block;
+}
+	#tempIdioma{
+		display:none;
+	}
+	#tempConteudoCont{
+		display:block;
+	}
+	#tempConteudoMenu{
+		display:none;
+	}
+	#tempRodape{
+		display:none;
+	}

@@ -1,0 +1,269 @@
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	font-size:10px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+body a{
+	text-decoration:none;
+}
+ul,li{
+	padding:0px;
+	margin:0px;
+}
+/* TOPO */
+#admin_topo{
+	float:left;
+	background:url(../imagens/layout/fundo_topo.jpg) repeat-x top left;
+	width:100%;
+	z-index:2;
+}
+#admin_topo ul.menus_opcoes{	
+	width:250px;
+	height:auto;
+	padding-top:2px;
+	list-style:none;
+	float:left;
+}
+#admin_topo ul.menus_opcoes li{
+	display:inline;
+	width:auto;
+	height:auto;
+}
+#admin_topo ul.menus_opcoes li img{
+	border:0px;
+	cursor:pointer;
+}
+#logo_evonline{
+	position:absolute;
+	float:right;
+	right:0px;
+	top:3px;
+	width:131px;
+	height:23px;
+	background:url(http://www.evonline.com.br/sys/imagens/evonline.jpg) no-repeat top right;
+}
+
+/* ABAS */
+#admin_topo2{	
+	z-index:1;
+	float:left;
+	position:relative;
+	top:0px;
+	width:100%;
+	height:76px;
+	background:url(../imagens/layout/fundo_topo2.jpg) repeat-x top left;
+}
+#admin_topo2 p{	
+	background:url(../imagens/layout/menu_fundo_esquerdo.jpg) no-repeat top left;
+	width:92px;
+	height:76px;
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+#admin_topo2 ul.aba_submenu{
+	display:none;
+	margin-left:120px;
+	list-style:none;
+}
+#admin_topo2 ul.aba_submenu li{
+	display:block;
+	float:left;
+	width:100px;
+	height:76px;
+}
+#admin_topo2 ul.aba_submenu li a{
+	text-decoration:none;
+	font-weight:normal;
+	display:block;
+	padding-top:60px;
+	height:15px;
+	text-align:center;
+	color:#FFFFFD;
+}
+#admin_topo2 ul.aba_submenu li a img{
+	border:0px;
+}
+#admin_topo2 ul li a img{
+	border:0px;
+}
+
+#tela{
+	font-size:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	
+	text-align:center;
+}
+.marginDoTela{
+	margin:10px 30px 0px 40px;
+}
+#tela a{
+	font-weight:normal;
+	font-size:11px;
+}
+#tela table{
+	font-size:10px;
+	color:#12243A;
+}
+
+#tela #home{
+	text-align:center;
+	width:779px;
+	height:auto;
+	margin:0 auto;
+	background:url(http://www.evonline.com.br/sys/imagens/evonline_logado.jpg) no-repeat top center;
+	padding-top:300px;
+}
+#tela #home em{
+	font-weight:normal;
+	font-style:normal;
+	color:#999999;
+}
+/*
+#tela inputtt{
+	border-bottom:2px solid #CECECE;
+	border-right:2px solid #CECECE;
+	border-left:1px solid #CECECE;
+	border-top:1px solid #CECECE;
+}
+*/
+
+.blocoTituloConteudos{
+	text-align:left;
+	margin:0px 0px 20px 0px;
+	padding:0px 0px 0px 3px;
+	border-bottom:1px solid #12243A;
+}
+	span.tituloConteudo{
+		font-size:18px;
+		color:#102037;
+		margin:0px;
+		padding:0px 0px 5px 0px;
+	}
+	
+	span.mensagemAcao{
+		font-size:14px;
+		margin:0px;
+		padding:0px;
+	}
+	
+	span.mensagemAcao img{
+		margin:0px 2px 0px 6px;
+	}
+	
+	.titErro{
+		color:#D53E16;
+	}
+	.titCad{
+		color:#679D40;
+	}
+
+/* GRID VIEW */
+.gridView{
+	width:90%;
+	margin:0 auto;
+	font-size:9px;
+	color:#12243A;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}	
+.gridView tr {
+	height:20px;
+}
+.gridView table.paginador {
+	width:100%;
+	text-align:center;
+	background-color:#12243A;
+	color:#FFFFFF;
+}
+.gridView table.paginador a.paginador{
+	color:#FFFFFF;
+}
+.gridView table.paginador a.disabled{
+	color:#CECECE;
+}
+.gridView table thead{
+	background-color:#12243a;
+	color:#FFFFFF;
+}
+.gridView table thead tr td a{
+	color:#FFFFFF;
+}
+
+.gridView table.nenhumResultado{
+	color:#FFFFFF;
+	width:100%;
+	text-align:center;
+}
+
+.linhaErro{
+	color:#CC0000;
+}
+.linhaImpar{
+	background-color:#E3E6E9;
+}
+.linhaPar{
+	background-color:#F3F4F5;
+}
+.linhaOver{
+	background:inherit;
+}
+
+/*
+# Formulrio de cadastor
+*/
+.formCadastro{
+	border:0px;
+}
+.formCadastro table{
+	/*width:700px;*/
+	width:90%;
+	color:#12243a;
+}
+.formCadastro table thead{
+	background-color:#12243a;
+	color:#FFFFFF;
+	padding:5px;
+}
+.formCadastro tr.escura{
+	background-color:#E3E6E9;
+}
+.formCadastro tr.clara, .formCadastro tr td.clara{
+	background-color:#F3F4F5;
+}
+.formCadastro label{
+	display:block;
+}
+.formCadastro input, .formCadastro textarea{
+	width:100%;
+	border:1px solid #CECECE;
+	background-color:#FFFFFF;
+}
+.formCadastro button{
+	border-bottom:2px solid #333333;
+	border-right:2px solid #333333;
+	border-left:1px solid #CECECE;
+	border-top:1px solid #CECECE;
+	background-color:#FFFFFF;
+	cursor:pointer;
+}
+.formCadastro input.inputData{
+	width:auto;
+	border:1px solid #CECECE;
+}
+.formCadastro input.inputCheckBox{
+	width:auto;
+	border:0px;
+}
+.formCadastro div.linhaParametro{
+	position:relative;
+	float:left;
+	padding:5px 10px 5px 15px;
+}
+
+#div_notificar{
+	width:100%;
+	height:29px;
+	overflow:hidden;
+}

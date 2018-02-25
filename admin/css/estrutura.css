@@ -1,0 +1,145 @@
+/* CSS Document */
+a{
+	color:#666666;
+	font-weight:normal;
+}
+a img{
+	border:0px;
+}
+
+.formEstrutura img{
+	border:0px;
+}
+.contextMenu a{
+	font-weight:normal;
+	color:#456759;
+}
+input{
+	width:100%;
+	background:none;
+	border:0px;
+	padding:3px 0px 3px 5px;
+}
+input.remove{
+	width:10px;
+}
+
+.clickArrastar{	
+	background:url(../imagens/icones/move.jpg) no-repeat center top;
+	background-color:#C8CDD1;
+	height:28px;
+	/*border-bottom:2px solid #8D97A1;*/
+}
+.contextMenu{
+	display:none;
+}
+div.contextMenu ul li a{
+	display:block;
+}
+
+/*FLUTUANTE*/
+.subMenuEstrutura{
+	position:absolute;
+	display:none;
+	width:270px;
+	margin:-22px 0px 0px 15px;
+	background-color:#CCCCCC;
+	
+}
+.subMenuEstrutura table{
+	width:270px;
+	border-left:2px solid #8D97A1;
+	border-right:2px solid #8D97A1;
+}
+	
+.displayEdicoes{
+	z-index:0;
+	width:270px;
+	height:auto;
+	text-align:left;
+	color:#414a55;
+	margin:20px 30px 0px 0px;
+	border:2px solid #91999C;
+}
+.displayEdicoes table{
+	z-index:0;
+}
+.displayEdicoes a{
+	display:block;
+}
+.displayEdicoes p{
+	/*background:url(../imagens/icones/pixel.jpg) repeat-x left bottom;*/
+	background-color:#102037;
+	margin:0px;
+	color:#FEFCFD;
+	padding:5px 0px 8px 5px;
+	border-bottom:1px solid #8D97A1;
+}
+
+.displayEdicoes p a{
+	color:#414a55;
+	width:18px;display:inline;
+}
+.displayEdicoes p a:hover{
+	text-decoration:none;
+}
+
+.linhaSalva{
+	background-color:#C8CDD1;
+}
+.linhaSalva input{
+	background-color:#C8CDD1;
+	font-size:11px;
+}
+.linhaNova{
+	background-color:#FEFCFD;
+}
+.linhaNova input{
+	background-color:#FEFCFD;
+	font-size:11px;
+}
+.linhaNova td.clickArrastar{
+	background:url(../imagens/icones/move_claro.jpg) no-repeat center top;
+}
+table tr{	
+	/*background:url(../imagens/icones/pixel.jpg) repeat-x left bottom;*/
+}
+table tr td{	
+	border-top:1px solid #8D97A1;
+	border-bottom:1px solid #91999C;
+}
+
+table.botoesProdutos tr td{
+	border:0px;
+}
+
+.contextMenu{
+	position:absolute;
+	z-index:99999;
+	list-style:none;
+	padding:1px;
+	margin:0px;
+	background-color:#fff;
+	border:1px solid #666666;
+	width:160px;
+	margin-top:-17px;
+}
+.contextMenu ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	z-index:99999;
+}
+.contextMenu ul li{
+	margin:0px;
+	color:#000;
+	display:block;
+	cursor:default;
+	padding:3px;
+	border:1px solid #fff;
+	background-color:transparent;
+}
+.SubMenu{
+	margin-left:25px;
+	text-align:left;
+}

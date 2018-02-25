@@ -1,0 +1,44 @@
+/* Comentários */
+div#divFormComentario{
+
+}
+div#divFormComentario input,div#divFormComentario textarea{
+	width:99%;
+}
+div#divFormComentario button{
+	border: 1px solid #CCCCCC;
+	color:#666666;
+}
+div#listaComentarios{
+	background:url(../imagens/tit_comentarios.jpg) no-repeat top right;
+	padding-top:79px;
+	border:0px;
+}
+div#listaComentarios p.titulo{
+	margin-top:-40px;
+	font-size:18px;
+}
+div#listaComentarios ul{
+	padding:0px;
+	margin:10px 0px 10px 0px;
+	list-style:none;
+}
+div#listaComentarios ul li{
+	padding:0px 5px 0px 5px;
+}
+div#listaComentarios ul li.titulo{
+	padding-top:5px;
+	width:530px;
+	margin:0 auto;
+	border-left:1px solid #E5E5E5;
+	border-right:1px solid #E5E5E5;
+	border-top:1px solid #E5E5E5;
+	height:auto;
+	font-weight:bold;
+}
+div#listaComentarios ul li.conteudo{
+	margin:0 auto;
+	width:530px;
+	padding:5px;
+	border:1px solid #E5E5E5;
+}

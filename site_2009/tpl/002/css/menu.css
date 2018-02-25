@@ -1,0 +1,58 @@
+/*
+	Menu
+*/
+div#menu{
+	width:100%;
+	height:38px;
+	z-index:2000;
+	background: url(../imagens/menu.jpg) repeat-x top left;
+}
+div#menu ul{
+	width:800px;
+	height:38px;
+	list-style:none;
+	margin:0 auto;
+	padding:0px;
+}
+
+div#menu ul li{
+	height:38px;
+	float:left;
+	display:inline;
+	text-align:left;
+}
+
+div#menu ul li a{
+	height:20px;
+	display:block;
+	text-align:center;
+	padding-top:5px;
+	width:99%;
+}
+
+div#menu ul li ul{
+	position:absolute;
+	margin:-10px 0px 0px 0px;
+	display:none;
+	width:150px;
+	height:auto;
+	z-index:99999;
+} 
+
+
+div#menu ul li ul li{
+	position:relative;
+	width:100%;
+	height:auto;
+
+}
+
+div#menu ul li ul li a,div#menu ul li ul li a:hover{
+	width:140px;
+	height:auto;
+	display:block;
+	text-align:left;
+	padding-left:10px;
+	font-size:10px;
+	font-weight:normal;
+}

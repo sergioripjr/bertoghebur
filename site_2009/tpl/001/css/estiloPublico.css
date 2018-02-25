@@ -1,0 +1,684 @@
+/* CSS Document */
+
+body{
+	margin:0px;
+	padding: 0px;
+	text-align: center;
+	font-family: Helvetica, Verdana, Geneva, Arial, sans-serif;
+}
+h1, h2, h3, h4, h1.tit, h2.tit, h3.tit{
+	display:none;
+}
+.clearBoth{
+	clear:both;
+}
+img{
+	border:0px;
+}
+
+body,td{
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-size:12px;
+}
+.indexPagSeguro{
+	margin:5px 0px 5px 0px;
+}
+div#divConteudo{
+	width: 100%;
+	margin:0 auto;
+	min-height:400px;
+}
+
+div#divLoading{
+	position:absolute;
+	float:left;
+	background-color:#8d97a1;
+	padding:2px;
+	color:#FFFFFF;
+	z-index:999999;
+	margin-top:60px;
+	margin-left:473px;
+}
+
+#conteudo_artigo{
+	text-align:justify;
+}
+
+#menuConteudo{
+	position:relative;
+	width:100%;
+	height:auto;
+	margin-top:15px;
+}
+#menuConteudo ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+#menuConteudo ul li{
+	margin:3px;
+	padding:0px;
+}
+#menuConteudo ul li p{
+	border-bottom:1px solid #CECECE;
+	margin:0px;
+	padding:0px;
+	font-size:14px;
+	font-weight:bold;
+	height:28px;
+}
+#menuConteudo ul li a{
+	font-weight:normal;
+	height:28px;
+}
+#menuConteudo ul li a img{
+	margin-right:10px;
+}
+
+div#conteudo{
+	margin:0px 10px 0px 10px;
+}
+div#divTotal{
+	margin-top:0px;
+	top:0px;
+}
+
+a#clickHref{
+	padding:0px;
+	margin:0px;
+}
+.texto{
+	text-align:justify;
+	line-height:1.8;
+}
+.texto h1, .texto h2, .texto h3, .texto h4{
+	display:block;	
+}
+#conteudo_artigo div.texto a{
+	 text-decoration:underline;
+}
+.texto table tr td{
+	text-align:justify;
+}
+.espacoP p{
+	margin:0px;
+	padding:0px;
+}
+#logoEvonline{
+	float:right;
+	height:16px;
+}
+#logoEvonline a img{
+	padding:0px;
+	margin:0px;
+	border:0px;
+	float:right;
+}
+a#logoCliente{
+	margin:0px;
+	height:37px;
+	padding:0px;
+	float:right;
+}
+a#logoCliente img{
+	margin:0px;
+	padding:0px;
+	float:right;
+}
+.arquivopar{
+	background-color:#FEFEFE;
+}
+.arquivoimpar{
+	background-color:#EEEEEE;
+}
+a.linkBlock{
+	display:block;
+	text-align:justify;
+	font-weight:normal;
+	cursor:pointer;
+}
+.topoLogo{
+	background-position:top left;
+	background-repeat:no-repeat;
+	height:129px;
+}
+	.topoLogo #swf_topo{
+		position:relative;
+		margin-top:0px;
+		left:0px;
+		width:802px;
+		height:129px;
+		z-index:0;
+	}
+		
+	.topoLogo #inforGer{
+		width:802px;
+		height:auto;
+		float:left;
+		z-index:0;
+		margin-top:-129px;
+	}
+		.topoLogo #inforGer #imgAnteriores{	
+			float:left;
+			width:300px;
+			height:19px;
+			float:left;
+			text-align:left;
+			margin:5px 0px 0px 10px;
+		}
+
+.rodape{
+	float:left;
+	background:url(../imagens/rodape.jpg) top left;
+	height:auto;
+	font-family:arial;
+	font-size:11px;	
+}
+
+.tableConteudo{
+	margin:0 auto;
+}
+div#abaConteudoCont{
+	margin:0 auto;
+	width:790px;
+	_width:797px;
+	height:auto;
+}
+div#abaConteudoEsquerda{
+	width:197px;
+	float:left;
+	margin-left:12px;
+	_margin-left:8px;
+	padding-bottom:15px;
+}
+
+div#abaConteudoEsquerda input
+,div#abaConteudoEsquerda select
+{
+	width:99%;
+}
+div#abaConteudoEsquerda{
+	text-align:left;
+}
+
+div#abaConteudoEsquerda fieldset{
+	border:0px;
+	margin:0px;
+	padding:0px;
+	border:0px;
+	width:196px;
+}
+div#abaConteudoEsquerda fieldset legend{
+	margin:0px;
+	text-align:left;
+	border:0px;
+
+}
+legend#cadNewsLetter_txt{
+	position:relative;
+	display:block;
+	float:left;
+	width:100px;
+	height:auto;
+	border:1px solid #00FF00;
+	white-space:normal;
+}
+div#abaConteudoDireita{
+	width:570px;
+	float:right;
+	overflow:hidden;
+	padding-bottom:15px;
+	margin-right:2px;
+}
+
+
+.topoLogoBusca{
+	margin-top:-20px;
+	float:right;
+	width:auto;
+}
+a.linkBuscaTitulo{
+	padding:4px 4px 4px 0px;
+	font-weight:bold;
+}
+a.linkBuscaTexto{
+	font-weight:normal;
+	padding:4px;
+	font-size:10px;
+}
+#bandeiras{
+	margin-left:2px;
+	display:block;
+}
+.txt11brancoRel{
+	color: #FFFFFF;
+	font-size: 11px;
+	display:inline;
+}
+#infoEvonline{
+	position:relative;
+	clear:both;
+	width:802px;
+	height:300px;
+	color:#000000;
+	z-index:1568;
+}
+#infoEvonline img{
+	border:0px;
+}
+.clickHome{
+	cursor:pointer;
+	display:block;
+	left:0px;
+	top:0px;
+	float:left;
+	width:400px;
+	height:105px;
+}
+div#relogio{
+	float:left;
+	display:inline;
+	font-size: 10px;
+	color:#FFFFFF;
+	width:190px;
+	margin-top:0px;
+	margin-right:4px;
+}
+div#relogio span#hora,
+div#relogio span#minuto,
+div#relogio span#segundo
+{
+	font-size: 11px;
+}
+.efeitoEsquerda{
+	background:url(../imagens/detalhe_esquerdo.jpg) repeat-y top right;
+}
+.efeitoDireita{
+	text-align:left;
+	background:url(../imagens/detalhe_direito.jpg) repeat-y top left;
+}
+
+#buscaGeral a{
+	font-weight:normal;
+}
+
+div.autores{
+	float: right;
+	text-align: right;
+}
+
+.cadNewsLetter{
+	/* News Letter */
+	color:#000000;
+}
+
+form.formNewsLetter{
+	margin:15px 0px 0px 0px;
+	border-top:1px solid #EFEFEF;
+}
+
+
+
+
+/* DA HOME.PHP */
+td.chamadaDestaque a.linkBlock{
+	font-size: 11px;
+	font-weight:normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+/* DA MAPA.PHP */
+.linhaPar{
+	background-color: #E6E9EC;
+}
+.linhaImpar{
+	background-color: #CDCED6;
+}
+/* DA BUSCA.PHP */
+BLOCKQUOTE .titulo_principal A
+, BLOCKQUOTE .titulo_principal A:hover
+, BLOCKQUOTE .titulo_principal A:visited
+, BLOCKQUOTE .titulo_principal A:active
+, BLOCKQUOTE .titulo_principal A:link
+{
+	font-size: 11px;
+}
+/* DA FORMMAIL.PHP */
+input, select, textarea{
+	border: 1px solid #CCCCCC;
+	color:#000000;
+}
+/*
+###### INICIO: estilo.css
+*/
+a{
+	font-size:inherit;
+	color:inherit;
+	font-weight:inherit;
+}
+a:link, a:visited	{
+	text-decoration : none;
+	color : #999999;
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align:left;
+}
+a:hover , a:active{
+	text-decoration : none;
+	color : #CA7C00;
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align:left;
+}
+input, select, textarea{
+	background-color: #FFFFFF;
+	font-size: 11px;
+	font-family:tahoma;
+	font-weight : normal;
+}
+
+div#mapa_site{
+	text-align:left;
+	margin:0px 0px 10px 10px;
+}
+div#mapa_site p{
+	margin:15px 0px 0px 0px;
+	padding:0px;
+	font-weight:bold;
+}
+div#mapa_site ul{
+	padding:0px;
+	margin:10px 0px 0px 30px;
+	list-style:none;
+}
+div#mapa_site ul li{
+	margin:10px 0px 8px 0px;
+}
+div#mapa_site ul li a
+,div#mapa_site ul li ul li a
+{
+	font-weight:normal;
+}
+div#mapa_site ul li ul{
+	padding:0px;
+	padding-left:5px;
+	list-style:none;
+
+}
+
+.titulo_principal{
+	margin-top:8px;
+	border-bottom:1px solid #CECECE;
+	text-align:center;
+	width:534px;
+	height:40px;
+}
+.titulo_principal div{
+	width:430px;
+	height:36px;
+	float:left;
+}
+.titulo_principal a.voltar{
+	float:left;
+	border:0px;
+}
+.titulo_principal a.avancar{
+	float:left;
+	border:0px;
+}
+.titulo_principalBusca{
+	font-family : Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-size : 12px;
+	text-align : left; 
+	padding:5px;
+	color : #768089;
+	height:22px;
+	border-bottom:1px solid #DDDDDD;
+	margin:10px 0px 10px 0px;
+}
+h4{
+	padding:0px;
+	margin:10px 0px 0px 0px;
+	font-size:18px;
+	height:auto;
+
+}
+
+.titulodestaque{
+	font-family : Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight : bold;
+	height: 20px;
+	text-align : left;
+	color : #943655;
+	background: url(../images/destaque.jpg) no-repeat 0px 0px;
+	background-color: #F3F6F7;
+	padding: 2px 5px 2px 5px;
+}
+	
+.titulo_destaque {
+	background: url(../images/icone_principal.gif) no-repeat 3px 5px;
+	background-color: #C3C3B9;
+	font-family : Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight : bold;
+	height: 20px;
+	text-align : left; 
+	color : #D62E01;
+	border-bottom: 1px solid #dddddd;
+	padding:2px 5px 2px 17px;
+}	
+.texto_destaque {
+	font-family : Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight : normal;
+	text-align : justify; 
+	color : #5A5B5E;
+	background-color: #FFFFFF;
+	padding:5px;
+}	
+
+/* BUSCA */
+.txtBusca{
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+}
+.txtBuscaParametro{
+	font-size:10px;
+	color:#666666;
+}
+.campoBusca{
+	position: relative;
+	border:1px solid #CCCCCC;
+	height:20px;
+	width:100%;
+	color:#666666;	
+}
+.btnSubmitBusca{
+	position: relative;
+	border: none;
+	font-size:10px;
+	margin-left:2px;
+}
+
+button{
+	border:0px;
+	background:none;
+}
+.cursorIcone{
+	cursor:pointer;
+}
+
+/*
+# ecomm_estrutura.php
+*/
+#bannerLateral{
+	margin:17px 0px 17px 0px;
+	padding:0px;
+	width:100%;
+}
+#categoriaProdutos{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	background:url(../imagens/produto_pixel.jpg) repeat-y top left;
+}
+#categoriaProdutos ul{
+	margin:0px;
+	padding:0px;
+	width:100%;		
+	list-style:none;
+}
+
+#categoriaProdutos ul li{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	/*padding:5px 0px 5px 20px;*/
+	text-align:left;
+	cursor:pointer;
+	/*border:1px solid #FF0000;*/
+}
+#categoriaProdutos ul li a{
+	display:block;
+	color:#FFFFFF;
+	font-weight:normal;
+	padding:5px 0px 5px 40px;
+	background:url(../imagens/bullet.jpg) no-repeat left;
+	
+}
+#categoriaProdutos ul li ul li a{
+	display:block;
+	color:#FFFFFF;
+	font-weight:normal;
+	padding:5px 0px 5px 45px;
+	background-image:none;
+}
+
+
+#produtoQuantidade{
+	padding-top:15px;
+	margin-top:0px;
+	margin-bottom:15px;
+	height:94px;
+	width:197px;
+	background:url(../imagens/menu_carrinho.jpg) no-repeat top left;
+}
+#produtoQuantidade a{
+	color:#FFFFFF;
+	font-weight:normal;
+}
+
+#produtoQuantidade a span{
+	font-weight:bold;
+}
+#produtoQuantidade em{
+	font-size:30px;
+	font-style:normal;	
+}
+.submenu{
+	display:none;
+}
+
+/*
+# função exibeAnexoImagem (funcoesAnexos.php)
+*/
+div.exibeAnexoImagem{
+	position:relative;
+	float:left;
+	width:100%;
+	height:auto;
+	text-align:left;
+}
+div.exibeAnexoImagem ul{
+	float:left;
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+div.exibeAnexoImagem ul li{
+	float:left;
+	width:100px;
+	height:100px;
+	padding:1px;
+	margin:5px 2px 2px 2px;
+	border:1px solid #CECECE;
+	text-align:center;
+}
+div.exibeAnexoImagem ul li a{
+	float:none;
+	display:block;
+	width:100px;
+	height:100px;
+	text-align:center;
+}
+div.exibeAnexoImagem ul li a img{
+	float:none;
+	vertical-align:middle;
+}
+
+
+
+div.exibeAnexoArquivo{
+	position:relative;
+	width:100%;
+	height:auto;
+	text-align:left;
+	margin:20px 2px 0px 2px;
+}
+div.exibeAnexoArquivo p{
+	padding-top:0px;
+	height:80px;
+	font-weight:bold;
+	text-align:left;
+	font-size:18px;
+}
+div.exibeAnexoArquivo ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+div.exibeAnexoArquivo ul li{
+	padding:2px;
+	text-align:left;
+}
+div.exibeAnexoArquivo table tr td.anexoTitulo{
+	padding:0px 10px 0px 10px;
+	border-bottom:1px solid #DBDBDB;
+}
+
+/* Form Restricao */
+div#msgLoginPublico{
+	padding-top:5px;
+	padding-left:10px;
+	width:340px;
+	margin:0 auto;
+	margin-top:30px;
+	border-left:1px solid #E5E5E5;
+	border-right:1px solid #E5E5E5;
+	border-top:1px solid #E5E5E5;
+	height:20px;
+}
+div#divLoginPublico{
+	margin:0 auto;
+	width:350px;
+	border:1px solid #E5E5E5;
+}
+
+div#infoLoginPublico{
+	margin-top:15px;
+	width:100%;
+	height:auto;
+	text-align:left;
+}
+div#infoLoginPublico em{
+	font-size:12px;
+}
+div#infoLoginPublico a{
+	width:300px;
+	font-size:10px;
+	font-family:verdana;
+	font-weight:normal;
+}

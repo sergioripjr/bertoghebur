@@ -1,0 +1,59 @@
+TD.menuProd
+{
+	width: 1%;
+	Xborder: 1px solid red;
+}
+TD.menuProd SPAN
+{
+	z-index: 3;
+}
+TD.menuProd INPUT.setinha
+{
+	background-image: url(bullet_seta_baixo.gif);
+	background-repeat: no-repeat;
+	background-position: 98% center;
+	padding-right: 10px;
+}
+DIV.submenuProd
+{
+	position: absolute;
+	width: 150px;
+	Xmargin-top: 19px;
+	Xborder: 1px solid red;
+}
+DIV.submenuProd INPUT.setinha
+{
+	background-image: url(bullet_seta.gif);
+	background-repeat: no-repeat;
+	background-position: 98% center;
+	padding-right: 10px;
+}
+DIV.submenuProd DIV.submenuProd
+{
+	margin-top: -1px;
+	margin-left: 1px;
+}
+#contextMenuMenu
+{
+	position: absolute;
+	border: 1px solid #CCCCCC;
+	border-bottom: none;
+	border-right: none;
+	width: 200px;
+	background-color: #FFFFFF;
+	cursor: default;
+	z-index: 2;
+}
+#contextMenuMenu SPAN
+{
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	border-left: none;
+	padding: 5px;
+	width: 100%;
+}
+
+.disabled
+{
+	filter: gray();
+}

@@ -1,0 +1,68 @@
+/* CSS Document */
+#produtoQuantidade{
+	width:100%;
+	padding-top:13px;
+	padding-bottom:5px;
+	margin:0 auto;
+	margin-bottom:10px;
+	height:76px;
+	background:url(../imagens/menu_carrinho.jpg) no-repeat top center;
+}
+
+	#produtoQuantidade a{
+		color:#FFFFFF;
+		text-decoration:none;
+	}
+	#produtoQuantidade em{
+		font-size:30px;
+		font-style:normal;	
+	}
+
+
+.ecomm_produto_home{
+	width:99%;
+	height:auto;
+	margin:0px;
+	padding:0px;
+}
+	.ecomm_produto_home li{
+		border:0px;
+		float:left;
+		display:block;
+	}
+
+div.chamadaproduto{
+	padding:10px 0px 10px 5px;
+}
+strong.caracteristica{
+	padding:0px 0px 0px 5px;
+}
+div.produtoTitulo{
+	padding:3px 0px 0px 0px;
+}
+div.produtoNome{
+
+}
+#mostraProdutosDestaques{
+	float:left;
+	margin:10px 0px 0px 0px;
+	height:auto;
+	overflow:hidden;
+	width:100%;
+}
+
+	#mostraProdutosDestaques ul{
+		float:left;
+		list-style:none;
+		width:100%;
+		height:auto;
+		margin:0px;
+		padding:0px;
+	}
+		#mostraProdutosDestaques ul li{
+			display:block;
+			float:left;
+			height:90px;
+			width:90px;
+			margin:10px 0px 0px 0px;
+		}

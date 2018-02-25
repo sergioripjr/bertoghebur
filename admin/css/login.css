@@ -1,0 +1,42 @@
+/* CSS Document */
+.tableFundo{
+	height:300px;
+	width:100%;
+	color:#CECECE;
+	
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.tableFundo td.img{
+	background: url(http://www.evonline.com.br/sys/imagens/evonline_login.jpg) no-repeat center bottom;	
+}
+input{
+	border:1px solid #CECECE;
+}
+.txtMenor{
+	color:#666666;
+	font-size:10px;
+}
+table.alinha{
+	margin-top:10px;
+}
+.alinha button{
+	padding:0px;
+	margin:0px;
+	border:0px;
+	background:url(../imagens/icones/entrar.jpg) no-repeat top left;
+	width:19px;
+	height:19px;
+	
+}
+.alinha button span{
+	visibility:hidden;
+}
+.tableFundo button img{
+	border:0px;
+	padding:0px;
+	margin:0px;
+}
+.campoLogin{
+	width:140px;
+}

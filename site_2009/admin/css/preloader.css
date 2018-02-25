@@ -1,0 +1,29 @@
+/* CSS Document */
+#carrega_imagens{
+	/* Enconde o preloader */
+	visibility:hidden;
+	position:absolute;
+	margin-top:-1000px;
+	background-image:url(../imagens/layout/avancar.jpg);
+	background-image:url(../imagens/layout/voltar.jpg);
+	background-image:url(../imagens/layout/menu_fundo_esquerdo.jpg);
+	
+	background-image:url(../imagens/layout/atualizar.jpg);
+	background-image:url(../imagens/layout/excluir.jpg);
+	background-image:url(../imagens/layout/novo.jpg);
+	background-image:url(../imagens/layout/imprimir.jpg);
+	background-image:url(../imagens/layout/salvar.jpg);
+	
+	/* Carrega imagens do menu configurações */
+	background-image:url(../imagens/icones/configuracoes/ico_geral.jpg);
+	background-image:url(../imagens/icones/configuracoes/over_geral.jpg);
+	
+	background-image:url(../imagens/icones/configuracoes/ico_usuarios.jpg);
+	background-image:url(../imagens/icones/configuracoes/over_usuarios.jpg);
+	
+	background-image:url(../imagens/icones/configuracoes/ico_clientes.jpg);
+	background-image:url(../imagens/icones/configuracoes/over_clientes.jpg);
+	
+	background-image:url(../imagens/icones/configuracoes/ico_produtos.jpg);
+	background-image:url(../imagens/icones/configuracoes/over_produtos.jpg);	
+}

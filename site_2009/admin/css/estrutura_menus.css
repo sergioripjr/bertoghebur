@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+#formEstruturaMenus{
+	color:#CCCCCC;
+	font-size:10px;
+	font-family:Verdana;
+	margin:0px;
+	padding:0px;
+}
+#menu_estrutura_menus label{
+	font-family:Verdana, Arial;
+	font-size:10px;
+	color:#7B8086;
+}
+h3{
+	color:#666666;
+	margin:0px;
+	padding:0px;
+}
+.radio
+{
+	width: auto;
+	height: auto;
+}
+.primeira_linha{
+	background-color:#14243B; 
+	color:#FFF9F0;
+	width:664px;
+	height:32px;
+}
+.primeira_linha input{
+	border:1px solid #FFF9F0;
+	width:560px;
+	padding-left:5px;
+}
+.primeira_linha h3{
+	color:#FFF9F0;
+	font-size:18px;
+	padding:5px 0px 0px 10px;
+}
+
+.segunda_linha{
+	background-color:#ACABB1; 
+	border:0px;
+	text-align: right;
+	width:100%;
+	height:32px;
+
+}
+.segunda_linha select{
+	width:100px;
+	border:1px solid #FEFEFE;
+	float:left;
+	margin:4px 0px 0px 5px;
+	color:#515151;
+}
+.segunda_linha input{
+	border:1px solid #FEFEFE;
+	margin:5px 0px 0px 23px;
+	color:#515151;
+	width:auto;
+	float:left;
+}
+.segunda_linha select.selectRamificado{
+	width:170px;
+}
+.segunda_linha label.labelOculto{
+	color:#CECECE;
+	float:left;
+	margin:10px 0px 0px 2px;
+}
+.segunda_linha a img{
+	border:0px;
+	position:relative;
+	margin-top:2px;
+}
+
+.terceira_linha{
+	background:url(../imagens/layout/detalheEsquerdoDest.jpg) no-repeat left top;
+	background-color:#14243B; 
+	color:#FFF9F0;
+	width:100%;
+	height:33px;
+	font-size:18px;
+}
+.terceira_linha label{ 
+	font-size:12px;
+	color:#FFF9F0;
+}
+.terceira_linha div{
+	padding:5px 0px 0px 20px;
+}
+
+.quarta_linha{
+	background:url(../imagens/layout/detalheEsquerdoDest.jpg) no-repeat left top;
+	background-color:#14243B; 
+	color:#FFF9F0;
+	width:100%;
+	height:33px;
+	font-size:18px;
+	margin-top:3px;
+}
+.quarta_linha div{
+	padding:5px 0px 0px 20px;
+}
+
+.classDiv label{
+	margin:0px;
+	padding:0px;
+}
+label{
+	height:auto;
+	margin:0px;
+	padding:0px;
+}
+.btnImg{
+	margin:0px;
+	padding:0px;
+	border:1px solid #FF0000;
+}
+img{
+	margin:0px;
+	padding:0px;
+}
+#divFormulario{
+	position:relative;
+	z-index:9999;
+	width:600px;
+	height:600px;
+}
+
+	
+.tituloFloat{
+	background-color:#14243B; 
+	color:#FFF9F0;
+	height:32px;
+	
+	color:#FFF9F0;
+	font-size:18px;
+	padding:5px 0px 0px 10px;
+}
+
+.camposDestinarios{
+	display:block;
+	width:100%;
+	height:110px;
+}
+
+#infoFormContato{
+	position:absolute;
+	
+	margin-top:1px;
+	margin-left:10px;
+	width:665px;
+	height:auto;
+	background-color:#F7F7F7;
+	border:1px solid #666666;
+	z-index:2222;
+}
+#infoFormAnexo{
+	position:absolute;
+	margin-top:1px;
+	margin-left:10px;
+	width:665px;
+	height:auto;
+	background-color:#F7F7F7;
+	border:1px solid #666666;
+	z-index:2222;
+}
+#infoFormRss{
+	position:absolute;
+	margin-top:1px;
+	margin-left:10px;
+	width:665px;
+	height:auto;
+	background-color:#F7F7F7;
+	border:1px solid #666666;
+	z-index:2222;
+}
+#infoFormComentario{
+	position:absolute;
+	margin-top:1px;
+	margin-left:10px;
+	width:665px;
+	height:auto;
+	background-color:#F7F7F7;
+	border:1px solid #666666;
+	z-index:2222;
+}
+#infoFormRestricao{
+	background-color:#F7F7F7;
+	border:1px solid #666666;
+	padding-bottom:15px;
+	margin-top:1px;
+	position:absolute;
+	margin-left:10px;
+	width:665px;
+	height:auto;
+	z-index:2222;
+}
+
+.anexos #lista a{
+	display:block;
+	width: 100%;
+	height:auto;
+	left:0px;
+	top:0px;
+	margin:0px;
+	padding:0px;
+}
+
+	#mapa_site{
+		margin-left:2px;
+		border:1px solid #798088;
+		width:220px;
+		background-color:#F7F7F7;
+	}
+	#mapa_site p{
+		padding:5px 2px 5px 10px;
+		background-color:#14243B;
+		color:#999999;
+		color:#FFFFFF;
+		font-size:18px;
+	}
+	#mapa_site ul{
+		margin-left:25px;
+		list-style:none;
+	}
+	#mapa_site ul li{
+		padding:3px 2px 3px 2px;
+	}
+	#mapa_site ul li, #mapa_site ul li a{
+		color:#333333;
+		font-weight:normal;
+	}

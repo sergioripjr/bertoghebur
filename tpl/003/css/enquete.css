@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+#form_enquete{
+	float:right;
+	width:201px;
+	margin:10px 8px 0px 0px;
+	font-size:11px;
+	text-align:justify;
+	font-weight:normal;
+}
+
+#form_enquete ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+#form_enquete input{
+	border:0px;
+}
+#exibeResultadoEnquete{
+	text-align:center;
+}
+
+#form_enquete .verResultado a{
+	background:none;
+	font-size:11px;
+	font-weight:normal;
+	float:right;
+	text-decoration:none;
+}
+#form_enquete button.btn_submit{
+	background:none;
+	width:90px;
+	height:20px;
+	text-align:center;
+	background:url(../imagens/btn_bg.jpg) no-repeat top left;
+}

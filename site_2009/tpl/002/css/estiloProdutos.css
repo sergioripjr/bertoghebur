@@ -1,0 +1,186 @@
+/* CSS Document */
+.ecomm_produto_home{
+	width:99%;
+	height:auto;
+	margin:0px;
+	padding:0px;
+}
+.ecomm_produto_home li{
+	border:0px;
+	float:left;
+	display:block;
+}
+
+#mostraProdutosDestaques{
+	float:left;
+	margin:10px 0px 0px 0px;
+	height:auto;
+	overflow:hidden;
+	width:100%;
+}
+
+#mostraProdutosDestaques ul{
+	float:left;
+	list-style:none;
+	width:100%;
+	height:auto;
+	margin:0px;
+	padding:0px;
+}
+#mostraProdutosDestaques ul li{
+	display:block;
+	float:left;
+	height:90px;
+	width:90px;
+	margin:10px 0px 0px 0px;
+}
+.contaItens{
+	font-size:22px;
+	font-weight:bold;
+}
+.fotoDestaque
+{
+	width: 100px;
+	height: 60px;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+.nomecampo
+{
+	font-size: 10px;
+	white-space: nowrap;
+	width: 1%;
+}
+.conteudo
+{
+	font-size: 12px;
+	padding-top:10px;
+}
+.mensagem, .erro
+{
+	color: #CC0000;
+}
+.mensagem
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+.asterisco{
+	color: #FF6600;
+}
+A.asterisco{
+	cursor: pointer;
+	color: #FF6600;
+}
+A.default{
+	cursor: default;
+	color: #FF6600;
+}
+A.bold{
+	font-weight: bold;
+	color: #FF6600;
+}
+
+TD.nomeproduto
+{
+	background-color: #EEEEEE;
+	color: #666666;
+	padding: 1px 4px 2px 4px;
+	font-size: 9px;
+}
+TD.chamadaproduto
+{
+	background-color: #86CA05;
+	color: #FFFFFF;
+	padding: 1px 4px 2px 4px;
+	font-weight: bold;
+	font-size: 11px;
+}
+TD.chamadaproduto a
+{
+	color: #FFFFFF;
+	padding: 1px 4px 2px 4px;
+	font-weight: bold;
+	font-size: 11px;
+}
+TD.iconecarrinho
+{
+	background-color: #EEEEEE;
+}
+
+TD.paginador A
+{
+	text-decoration: none;
+}
+		
+.nomeproduto
+{
+	background-color: #EEEEEE;
+	color: #666666;
+	font-size: 9px;
+}
+.chamadaproduto
+{
+	background-color: #218C84;
+	color: #FFFFFF;
+	padding: 2px 6px;
+	font-weight: bold;
+	font-size: 11px;
+	text-align:left;
+}
+.iconecarrinho
+{
+	background-color: #EEEEEE;
+}
+
+B.caracteristica
+{
+	text-transform: uppercase;
+	text-align:left;
+}
+DIV.caracteristica
+{
+	font-size: 0px;
+	padding: 0px;
+	border-top: 1px solid #CCCCCC;
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+
+.thumbImg
+{
+	cursor: pointer;
+	margin: 0 auto;
+	margin-bottom:2px;
+	border: 0px;
+	width:20px;
+}
+
+
+.titulo_produto
+{
+	background-color: #218C84;
+	color: #FFFFFF;
+	padding: 2px 6px;
+	font-weight: bold;
+	font-size: 11px;
+}
+.item_produto
+{
+	color: #666666;
+	padding: 0px 2px;
+	font-size: 9px;
+	text-align: center;
+	border-bottom: 1px solid #EEEEEE;
+	padding: 4px 0px 7px 0px;
+}
+.observacoes
+{
+	vertical-align: top;
+	text-align: justify;
+}
+
+

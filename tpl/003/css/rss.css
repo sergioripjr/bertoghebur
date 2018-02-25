@@ -1,0 +1,41 @@
+/* CSS Document */
+div.evorss{
+	
+}
+div.evorss p.title{
+	display:block;
+	position:relative;
+	font-weight:bold;
+	padding:35px 0px 0px 65px;
+}
+div.evorss ul{
+	margin:0px;
+	padding:10px;
+}
+
+div.evorss ul li{
+	margin-left:5px;
+	list-style:circle;
+}
+div.evorss ul li a{
+	font-weight:normal;
+	padding:2px;
+}
+div.evorss ul li a span.rss_txt{
+	font-weight:normal;	
+}
+div.evorss ul li a span.rss_tit{
+	font-weight:normal;
+}
+div.rssSite{
+	padding:3px 0px 3px 0px;
+}
+div.rssSite p{
+	padding:0px;
+	margin:2px;
+}
+div.rssSite ul{
+	list-style:disc;
+	margin:0px 0px 0px 7px;
+	padding:0px 0px 0px 10px;
+}

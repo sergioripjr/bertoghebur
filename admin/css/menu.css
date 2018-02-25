@@ -1,0 +1,137 @@
+/* CSS Document */
+ul.menuPrincipal{
+	padding-left:25px;
+	list-style:none;
+	display:inline;
+	height:auto;
+	width:400px;
+	float:left;
+}
+ul.menuPrincipal li{
+	margin-top:2px;
+	text-align:center;
+	display:block;
+	width:100px;
+	height:22px;
+	float:left;
+	background:url(../imagens/layout/menu_separador.jpg) no-repeat top right;
+}
+ul.menuPrincipal li a{
+	display:block;
+	padding-top:2px;
+	font-weight:normal;
+	width:100px;
+	height:22px;
+	color:#1B304B;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+ul.menuPrincipal li a:hover{
+	text-decoration:none;
+}
+ul.menuPrincipal li ul{
+	display:none;
+}
+
+/* ABA website */
+ul#website li#estrutura, .conteudosNaoClicado{
+	background:url(../imagens/icones/website/ico_menu_principal.jpg) no-repeat center 4px;
+}
+	ul#website li#estrutura a:hover, .conteudosClicado{
+		background:url(../imagens/icones/website/over_menu_principal.jpg) no-repeat center 4px;
+	}
+
+ul#website li#produtos, .ecomm_estruturaNaoClicado{
+	background:url(../imagens/icones/website/ico_lateral.jpg) no-repeat center 4px;
+}
+	ul#website li#produtos a:hover, .ecomm_estruturaClicado{
+		background:url(../imagens/icones/website/over_lateral.jpg) no-repeat center 4px;
+	}
+
+ul#website li#ramificados, .ocultosNaoClicado{
+	background:url(../imagens/icones/website/ico_ramificados.jpg) no-repeat center 4px;
+}
+	ul#website li#ramificados a:hover, .ocultosClicado{
+		background:url(../imagens/icones/website/over_ramificados.jpg) no-repeat center 4px;
+	}
+
+ul#website li#enquete, .enqueteNaoClicado{
+	background:url(../imagens/icones/website/ico_enquete.jpg) no-repeat center 4px;
+}
+	ul#website li#enquete a:hover, .enqueteClicado{
+		background:url(../imagens/icones/website/over_enquete.jpg) no-repeat center 4px;
+	}
+
+ul#website li#newsletter, .newsletterNaoClicado{
+	background:url(../imagens/icones/website/ico_newsletter.jpg) no-repeat center 4px;
+}
+	ul#website li#newsletter a:hover, .newsletterClicado{
+		background:url(../imagens/icones/website/over_newsletter.jpg) no-repeat center 4px;
+	}
+
+ul#website li#idiomas, .idiomasNaoClicado{
+	background:url(../imagens/icones/website/ico_idiomas.jpg) no-repeat center 2px;
+}
+	ul#website li#idiomas a:hover, .idiomasClicado{
+		background:url(../imagens/icones/website/over_idiomas.jpg) no-repeat center 2px;
+	}
+
+/* ABA cadastros */
+ul#cadastro li#clientes, .clientesNaoClicado{
+	background:url(../imagens/icones/cadastros/ico_clientes.jpg) no-repeat center 4px;
+}
+	ul#cadastro li#clientes a:hover , .clientesClicado{
+		background:url(../imagens/icones/cadastros/over_clientes.jpg) no-repeat center 4px;
+	}
+
+ul#cadastro li#site, .cadastroNaoClicado{
+	background:url(../imagens/icones/cadastros/ico_news.jpg) no-repeat center 4px;
+}
+	ul#cadastro li#site a:hover, .cadastroClicado{
+		background:url(../imagens/icones/cadastros/over_news.jpg) no-repeat center 4px;
+	}
+
+	
+ul#cadastro li#estatisticas, .estatisticasNaoClicado{
+	background:url(../imagens/icones/cadastros/ico_relatorio.jpg) no-repeat center 2px;
+}
+	ul#cadastro li#estatisticas a:hover, .estatisticasClicado{
+		background:url(../imagens/icones/cadastros/over_relatorio.jpg) no-repeat center 2px;
+	}
+
+/* ABA configuraes */
+ul#configuracoes li#usuarios, .usuariosNaoClicado{
+	background:url(../imagens/icones/configuracoes/ico_usuarios.jpg) no-repeat center 2px;
+}
+	ul#configuracoes li#usuarios a:hover, .usuariosClicado{
+		background:url(../imagens/icones/configuracoes/over_usuarios.jpg) no-repeat center 2px;
+	}
+	
+ul#configuracoes li#parametros_cadastros, .aparametros_cadastrosNaoClicado{
+	background:url(../imagens/icones/configuracoes/ico_clientes.jpg) no-repeat center 2px;
+}
+	ul#configuracoes li#parametros_cadastros a:hover, .parametros_cadastrosClicado{
+		background:url(../imagens/icones/configuracoes/over_clientes.jpg) no-repeat center 2px;
+	}
+
+ul#configuracoes li#parametros, .parametrosNaoClicado{
+	background:url(../imagens/icones/configuracoes/ico_produtos.jpg) no-repeat center 2px;
+}
+	ul#configuracoes li#parametros a:hover, .parametrosClicado{
+		background:url(../imagens/icones/configuracoes/over_produtos.jpg) no-repeat center 2px;
+	}
+	
+ul#configuracoes li#blacklist, .blacklistNaoClicado{
+	background:url(../imagens/icones/configuracoes/ico_bloqueados.jpg) no-repeat center 2px;
+}
+	ul#configuracoes li#blacklist a:hover, .blacklistClicado{
+		background:url(../imagens/icones/configuracoes/over_bloqueados.jpg) no-repeat center 2px;
+	}
+
+ul#configuracoes li#geral, .geralNaoClicado{
+	background:url(../imagens/icones/configuracoes/ico_geral.jpg) no-repeat center 3px;
+}
+	ul#configuracoes li#geral a:hover, .geralClicado{
+		background:url(../imagens/icones/configuracoes/over_geral.jpg) no-repeat center 3px;
+	}
+	

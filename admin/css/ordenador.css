@@ -1,0 +1,86 @@
+.ordenador
+{
+	width: 200px;
+	border: 2px solid #8D97A1;
+	border-bottom-width: 1px;
+	Xmargin: 5px;
+	Xposition: absolute;
+	background-color: #C8CDD1;
+	Xmargin-left: -7px;
+	Xmargin-top: 1px;
+	Xfloat: left;
+	text-align: right;
+}
+.ordenador .titulo
+{
+	font-family: Arial;
+}
+.ordenador DIV
+{
+	font-family: Arial;
+	font-size: 11px;
+	padding: 2px;
+	padding-left: 8px;
+	color: #666666;
+}
+.ordena_conteudo
+{
+	position: absolute;
+	display: none;
+	margin-top: -27px;
+	margin-left: 0px;
+}
+.sutil
+{
+	background: transparent;
+	border: none;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 0px;
+}
+.sutil2
+{
+	background: transparent;
+	border: none;
+	font-weight: normal;
+	font-size: 10px;
+	padding: 0px;
+}
+.sutil3
+{
+	background: transparent;
+	border: none;
+	font-weight: bold;
+	font-size: 12px;
+	Xfont-variant: small-caps;
+	padding: 0px;
+}
+
+#contextMenuIdioma, #contextMenuMenu, #contextMenuConteudo, #contextMenuMenuHome
+{
+	width: 180px;
+	border: 1px solid #8D97A1;
+	border-bottom: none;
+	position: absolute;
+	white-space: nowrap;
+	background-color: #FFFFFF;
+	font-variant: normal;
+	font-weight: normal;
+	font-family: Verdana;
+	font-size: 10px;
+	color: #666666;
+	padding: 0px;
+}
+
+#contextMenuIdioma SPAN, #contextMenuMenu SPAN, #contextMenuConteudo SPAN, #contextMenuMenuHome SPAN
+{
+		border-bottom: 1px solid #8D97A1;
+	width: 100%;
+	padding: 4px 8px;
+	cursor: pointer;
+}
+.disabled
+{
+	color: #CCCCCC;
+	cursor: default;
+}
